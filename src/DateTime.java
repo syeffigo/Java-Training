@@ -27,7 +27,7 @@ public class DateTime {
         LocalDate today = LocalDate.now();
         System.out.println("Current Date (java.time): " + today);
 
-        // String to java.time.LocalDate
+        // String to java.time.LocalDate 
         String dateStr = "2022-02-15";
         LocalDate parsedLocalDate = LocalDate.parse(dateStr);
         System.out.println("Parsed Date (java.time): " + parsedLocalDate);
