@@ -1,9 +1,11 @@
+package encodingdecoding;
+
 import java.util.Base64;
 
 public class EncodingDecoding {
     public static void main(String[] args) {
         // Original string to be encoded
-        String originalString = "Hello, Base64 encoding and decoding!";
+        String originalString = "Hi! Sahil, Let's go to watch movie";
         System.out.println("Original String: "+ originalString);
 
         // Encoding using Base64
